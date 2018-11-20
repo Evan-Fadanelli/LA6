@@ -4,7 +4,7 @@ import java.io.*;
 import java.util.*;
 
 public class Encoder implements IEncoder {
-
+//hello
 	@Override
 	public void encode(String inputFileName, String outputFilePath) {
 		File file = new File(inputFileName);
