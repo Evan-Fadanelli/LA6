@@ -16,7 +16,7 @@ public class Decoder implements IDecoder {
 		index = index + fire;
 			
 	}while(fire != -1)
-	for(int i = 0; i<spaget.lengths; i++)
+	for(int i = 0; i<filePath.lengths(); i++)
 	{
 		System.out.print(spaget[i]);
 		if(spaget[i-1].equals("/") && spaget[i].equals("n"))
